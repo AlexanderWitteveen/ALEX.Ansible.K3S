@@ -1,0 +1,5 @@
+---
+
+- include_tasks: install.k3s.yml
+
+- include_tasks: install.helm.yml

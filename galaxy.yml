@@ -2,7 +2,7 @@ namespace: alex
 
 name: k3s
 
-version: 0.1.1
+version: 0.1.2
 ## TODO Autiomate using the build command
 
 readme: README.md
@@ -10,7 +10,7 @@ readme: README.md
 authors:
 - Alexander Witteveen <alex.witteveen@live.nl>
 
-description: a preinstall collection - for initial configuration
+description: a k3s collection - installing k3s
 
 tags: []
 
@@ -20,7 +20,7 @@ tags: []
 # range specifiers can be set and are separated by ','
 dependencies: {}
 
-repository: https://github.com/AlexWitteveen/ALEX.Ansible.Preinstall
+repository: https://github.com/AlexWitteveen/ALEX.Ansible.K3S
 
-documentation: https://github.com/AlexWitteveen/ALEX.Ansible.Preinstall/blob/main/README.md
+documentation: https://github.com/AlexWitteveen/ALEX.Ansible.K3S/blob/main/README.md
 
