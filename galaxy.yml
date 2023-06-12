@@ -2,7 +2,7 @@ namespace: alex
 
 name: k3s
 
-version: 0.1.2
+version: 0.1.3
 ## TODO Autiomate using the build command
 
 readme: README.md
@@ -10,7 +10,7 @@ readme: README.md
 authors:
 - Alexander Witteveen <alex.witteveen@live.nl>
 
-description: a k3s collection - installing k3s
+description: a ansible collection - installing k3s
 
 tags: []
 

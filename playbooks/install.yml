@@ -1,9 +1,11 @@
 ---
 
 - name: "Playbook: Install K3S"
-  hosts: "{{ args_dhcpipaddress }}"
+  hosts: "{{ args_host }}"
   gather_facts: true
   become: true
+  vars:
+    ansible_host: "{{ args_ipaddress }}"
 
   vars_files:
     - /etc/ansible/inventory/vars.yml
