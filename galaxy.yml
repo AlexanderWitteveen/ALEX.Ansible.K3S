@@ -2,7 +2,7 @@ namespace: alex
 
 name: k3s
 
-version: 1.0.6
+version: 1.0.7
 ## TODO Autiomate using the build command
 
 readme: README.md
