@@ -1,0 +1,15 @@
+---
+
+- include_tasks: getkubeconfig.yml
+  vars:
+    cluster_host: "{{ args_k3s_prod_server }}"
+    cluster_env: prod
+    cluster_ns: "{{ args_k3s_prod_ns }}"
+
+- include_tasks: getkubeconfig.yml
+  vars:
+    cluster_host: "{{ args_k3s_dev_server }}"
+    cluster_env: dev
+    cluster_ns: "{{ args_k3s_dev_ns }}"
+
+- include_tasks: buildkubeconfig.yml
