@@ -1,0 +1,17 @@
+---
+
+- name: "Playbook: Config K3S"
+  hosts: "{{ args_host }}"
+  gather_facts: false
+  become: true
+  vars:
+    ansible_host: "{{ args_ipaddress }}"
+
+  vars_files:
+    - /etc/ansible/inventory/vars.yml
+
+  roles:
+    - alex.k3s.install
+    - alex.k3s.getkubeconfig
+    - alex.k3s.config
+    

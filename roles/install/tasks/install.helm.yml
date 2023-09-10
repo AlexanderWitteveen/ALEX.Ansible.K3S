@@ -27,3 +27,9 @@
   vars:
     packages:
     - helm
+
+- name: Install Python modules
+  ansible.builtin.pip:
+    name: pyyaml
+    executable: pip
+
